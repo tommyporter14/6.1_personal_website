@@ -85,7 +85,7 @@ p{
     background: #55d6aa;
     width: 100%;
     margin: 0 auto;
-    position: relative;
+    position: fixed;
     bottom: 0;
 }
 .container2::after{
@@ -133,4 +133,5 @@ input[type=submit] {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    margin-bottom: 95px;
   }
