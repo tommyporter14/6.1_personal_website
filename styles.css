@@ -39,7 +39,7 @@ nav ul{
 nav li{
     display: inline-block;
     margin-left:  70px;
-    padding-top: 27px;
+    padding-top: 33px;
 
     position: relative;
 }
@@ -80,3 +80,57 @@ p{
     margin-left: 200px ;
     margin-right: 200px;
 }
+
+.container2{
+    background: #55d6aa;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+}
+.container2::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.nav-bar-footer-socials{
+    float: left;
+    padding: 10px 0;
+    font-size: larger;
+    margin-left: 125px;
+}
+
+.listfooter{
+    margin-right: 125px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
