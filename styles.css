@@ -75,12 +75,38 @@ nav a:hover::before{
 p{
     color: aliceblue;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: large;
     margin-left: 200px ;
     margin-right: 200px;
 }
+.bio-name{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger;
+    margin-left: 200px ;
+    margin-right: 200px;
+}
 
+.welcome{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger;
+    margin-left: 200px ;
+    margin-right: 200px;
+}
+
+.portfolio-name{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger;
+    margin-left: 200px ;
+    margin-right: 200px;
+}
 .container2{
     background: #55d6aa;
     width: 100%;
