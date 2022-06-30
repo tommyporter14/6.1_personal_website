@@ -99,6 +99,24 @@ p{
     margin-right: 200px;
 }
 
+.blog{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger;
+    margin-left: 200px ;
+    margin-right: 200px;
+}
+
+.hometown{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger;
+    margin-left: 200px ;
+    margin-right: 200px;
+}
+
 .portfolio-name{
     color: aliceblue;
     text-align: center;
@@ -160,4 +178,21 @@ input[type=submit] {
     background-color: #f2f2f2;
     padding: 20px;
     margin-bottom: 95px;
+  }
+
+  .port-links li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+
+  .port-links{
+    list-style: none;
+    text-align: center;
+    margin-right: 30px ;
+  }
+
+  .port-links li a:hover{
+    color: aquamarine;
   }
